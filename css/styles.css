@@ -1,0 +1,127 @@
+* {
+    font-family: Alexandria;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button1 {
+    width: 48%;
+}
+.button1:hover {
+    
+    color: #fff;
+    background-image: linear-gradient(44deg,darkblue,rgb(55 55 229), rgb(120 206 240));
+}
+button.btn.button1 {
+    border-radius: 20px;
+    font-size: 18px;
+    border-color: #fff;
+    width: 26%;
+}
+/* login page css */
+.login-section {
+    margin: auto;
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-section {
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(360deg,darkblue,rgb(55 55 229), rgb(120 206 240));
+    margin: auto;
+}
+.login-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #f5f3f3;
+    font-weight: 600;
+    text-transform:uppercase;
+    text-shadow: -1px 1px 0 rgb(19 19 233), 1px 1px 0 rgb(19 19 233), 1px -1px 0 rgb(19 19 233), -1px -1px 0 rgb(19 19 233);
+}
+.login-form {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.form-group {
+    padding: 15px;
+} 
+.form-control{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+}  
+.form-group label {
+    font-size: 20px;
+    color: #fff;
+}
+.form-redirect {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.form-redirect a{
+    color: #fff;
+    font-size: 20px;
+}
+.login-form-btn-div a {
+    color: black;
+}
+.button1 a {
+    text-decoration: none;
+}
+.login-form-btn-div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+/* singup html page css */
+.register-section {
+    margin: auto;
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form-section {
+    width: 800px;
+    height: 640px;
+    background-image: linear-gradient(360deg,darkblue,rgb(55 55 229), rgb(120 206 240));
+    margin: auto;
+}
+.register-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #f5f3f3;
+    font-weight: 600;
+    text-transform:uppercase;
+    text-shadow: -1px 1px 0 rgb(19 19 233), 1px 1px 0 rgb(19 19 233), 1px -1px 0 rgb(19 19 233), -1px -1px 0 rgb(19 19 233);
+}
+.register-form {
+    padding: 10px;
+}
+.register-form-radio{
+    columns: #fff;
+}
+.register-form-btn-div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+}
+.register-form-btn-div a {
+    color: black;
+    font-size: 22px;
+}
